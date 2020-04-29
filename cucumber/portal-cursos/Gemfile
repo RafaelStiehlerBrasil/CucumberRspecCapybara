@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+
+# utilizar comando bundle install para instalar projeto
+# para iniciar um projeto cucumber usar comando cucumber --init
+group :test do
+    gem 'capybara'
+    gem 'cucumber'
+    gem 'rspec'
+    gem 'selenium-webdriver'
+end
